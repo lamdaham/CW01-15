@@ -128,9 +128,9 @@ public class Travel {
 		}
 
 		double time = (System.currentTimeMillis()-start)/1000.0;
-		System.out.println(min);
+		System.out.println("Minimum distance: " + min);
 		System.out.println(route);
-		System.out.println(time);
+		System.out.println("Time: " + time);
 
 		
 
